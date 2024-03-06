@@ -4,9 +4,12 @@
     &__block{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 129px;
 
-        div{
-            max-width: 50%;
+        img{
+            max-width: 448px;
+            height: auto;
         }
 
         h1{
@@ -28,5 +31,9 @@
                 font-weight: 500;
             }
         }
+    }
+
+    &__text{
+        max-width: 568px;
     }
 }
