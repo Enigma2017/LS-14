@@ -1,0 +1,37 @@
+.content{
+    padding-bottom: 128px;
+
+    h2{
+        text-align: center;
+        font-family: $font-dm;
+        font-size: 2.125rem;
+        font-weight: 500;
+        padding-bottom: 60px;
+    }
+
+    &__container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+
+        &_item{
+            max-width: 354px;
+            padding: 24px;
+            background-color: #1C1E22;
+            font-family: $font-dm;
+
+            h3{
+                font-size: 1.875rem;
+                padding: 10px 0;
+                font-weight: 500;
+            }
+
+            p{
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.75rem;
+            }
+        }
+    }
+}

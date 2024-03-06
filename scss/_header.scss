@@ -1,0 +1,32 @@
+.developer{
+    padding: 64px 0 128px;
+
+    &__block{
+        display: flex;
+        justify-content: space-between;
+
+        div{
+            max-width: 50%;
+        }
+
+        h1{
+            font-family: $font-dm;
+            font-size: 3.75rem;
+            font-weight: 700;
+            padding-bottom: 24px;
+        }
+
+        p{
+            font-family: $font-dm;
+            font-size: 1rem;
+            font-weight: 400; 
+            margin-bottom: 24px;
+            line-height: 1.75rem;
+
+            span{
+                color: $violet;
+                font-weight: 500;
+            }
+        }
+    }
+}

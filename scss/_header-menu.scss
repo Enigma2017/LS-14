@@ -1,0 +1,47 @@
+html{
+    color: $white;
+    font-size: 16px;
+}
+
+.header{
+    padding: 18px 0;
+
+    a{
+        color: $white;
+    }
+
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__logo{
+        font-family: $font-poppi;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    &__menu_nav{
+        display: flex;
+        justify-content: end;
+        column-gap: 23px;
+
+        a{
+            font-family: $font-dm; 
+            font-weight: 500;
+            font-size: 1rem;
+
+            &:hover{
+                border-bottom: 2px solid $violet;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+}
+        }
+
+    }
+}
+
